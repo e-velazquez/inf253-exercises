@@ -1,2 +1,2 @@
-# INF 253 Excercise
+# INF 253 Exercise
 A simple file!
