@@ -17,15 +17,22 @@ a href{
 h1, h2{
   color: #84A98C;
 }
+h1{
+  margin-bottom: .5em;
+}
+h2{
+  margin-bottom: .25em;
+}
 
 a{
   color:#59C3C3;
 }
 
 img{
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
+
 
 blockquote{
   border-left: 4px solid #8b9aa5;
@@ -45,4 +52,9 @@ blockquote{
 }
 ul{
   padding-left: 20px;
+  margin-top: 8px;
+}
+
+p{
+  line-height: 2em;
 }
