@@ -1,60 +1,63 @@
 body{
-  background-color: #EBEBEB;
-  color: #302F2F;
-  font-family: Arial, sans-serif;
+  background-color: #EBEBEB; /*Changes website's background color*/
+  color: #302F2F; /*Changes website's text color*/
+  font-family: Arial, sans-serif; /*Changes website's font*/
 }
+
 .wrapper{
-  background: #ffffff;
-  width: 92%;
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 12px 20px;s
+  background: #ffffff; /*Changes wrapper's background color*/
+  width: 92%; /*Makes the wrapper's width only take up 92% of the website*/
+  max-width: 880px; /*Sets width of website to 880px*/
+  margin: 0 auto; /*Changes top and right margin spacing*/
+  padding: 12px 20px;
 }
+
 a href{
-  color: #444444;
+  color: #444444; /*Change link's color*/
 }
 
 h1, h2{
-  color: #84A98C;
+  color: #84A98C; /*Changes h1 and h2 text color*/
 }
+
 h1{
-  margin-bottom: .5em;
+  margin-bottom: .5em; /*Creates a little space at the bottom of our heading 1*/
 }
+
 h2{
-  margin-bottom: .25em;
+  margin-bottom: .25em; /*Creates a little space at the bottom of our heading 2*/
 }
 
 a{
-  color:#59C3C3;
+  color:#59C3C3; /*Changes website's link color*/
 }
 
 img{
-  max-width: 30%;
-  height: auto;
+  max-width: 30%; /*Make the image widths smaller*/
+  height: auto; /*Fit the image height to the div's height*/
 }
 
 
 blockquote{
   border-left: 4px solid #8b9aa5;
-  padding-left: 12px;
+  padding-left: 16px;
   background-color: #f9f9f9;
   margin-left: 0;
 }
 
 .caption{
-  font-style: italic;
-  text-align: center;
-
+  font-style: italic; /*Make the caption italic*/
 }
 
 .image{
-  text-align: center;
+  text-align: center; /*Center the text in the div*/
 }
+
 ul{
-  padding-left: 20px;
-  margin-top: 8px;
+  padding-left: 20px; /*Add padding to the unordered list on the left to indent it*/
+  margin-top: 8px; /*Create space to the top of the UL*/
 }
 
 p{
-  line-height: 2em;
+  line-height: 2em; /*Add spacing between each line in our paragraphs*/
 }
