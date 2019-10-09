@@ -23,7 +23,7 @@ a{
 }
 
 img{
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -31,12 +31,18 @@ blockquote{
   border-left: 4px solid #8b9aa5;
   padding-left: 12px;
   background-color: #f9f9f9;
+  margin-left: 0;
 }
 
 .caption{
   font-style: italic;
+  text-align: center;
+
 }
 
 .image{
   text-align: center;
+}
+ul{
+  padding-left: 20px;
 }
