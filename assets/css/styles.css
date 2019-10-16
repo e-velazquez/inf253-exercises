@@ -61,14 +61,8 @@ ul{
 p{
   line-height: 2em; /*Add spacing between each line in our paragraphs*/
 }
-@media screen and (max-width:800px) {
-	a {width:90%; }
-	#aside {
-	text-align:center;
-	display:block;
-	  border-left-color:#98fb98;
-	 border-left-width:medium;
-	 border-left-style:solid;
-	 padding-left:5%;
-
+@media all and (min-width: 920px) {
+  aside h2:first-child {
+    margin-top: 14px;
+  }
 }
