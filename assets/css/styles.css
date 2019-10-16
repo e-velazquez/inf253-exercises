@@ -1,7 +1,7 @@
 body{
-  background-color: #EBEBEB; /*Changes website's background color*/
-  color: #302F2F; /*Changes website's text color*/
-  font-family: Arial, sans-serif; /*Changes website's font*/
+  background-color: #EBEBEB;
+  font-family: arial, sans-serif;
+  color: #302F2F;
 }
 
 .wrapper{
