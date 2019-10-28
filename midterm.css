@@ -12,6 +12,8 @@ body{
 h1{
   background-color: #FFFB00;
   font-style: italic;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .headerText{
@@ -21,18 +23,38 @@ h1{
 .fridayEvent{
   background-color: #FF8151;
   padding-left: 0px;
+  color: #FFFFFF;
+
 }
 
 .saturdayEvent{
   background-color: #FE626F;
   padding-right: 0;
-}
+  color: #FFFFFF;
 
+}
+p{
+  color: #000000;
+
+}
 .sundayEvent{
   background-color: #4174D5;
 
 }
 
+#eventAddress{
+  color: #FFFFFF;
+
+}
+.eventDates{
+  text-align: center;
+
+}
+
+#eventDateSunday{
+  color: #FFFFFF;
+
+}
 #sundayText{
   color: #FFFFFF;
 }
@@ -41,14 +63,29 @@ h1{
   background-color: #FFBC2B;
 
 }
-
+#supID{
+  font-size: 20px;
+}
 #yellowBoxText{
   font-style: italic;
 }
 
-
+.oxImage{
+  background-color: #FFFFFF;
+}
+#oxGraphic{
+  width: 100%;
+  height: 90%;
+}
 .eventDates{
 font-weight: bold;
 font-size: 15px;
 color: #000000;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #oxGraphic{
+    width: 40%;
+    height: 90%;
+  }
 }
