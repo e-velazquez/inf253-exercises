@@ -1,8 +1,8 @@
 body{
-
+  background-image: url(https://cdn.hipwallpaper.com/i/84/95/mx195U.jpg);
 }
 .container-fluid{
-  width: 98%;
+  width: 96%;
   max-width: 800px;
   margin: 0 auto;
   font-family: "Times New Roman", Arial;
@@ -16,7 +16,19 @@ h1{
   text-shadow: 1px 1px 2px #000000;
 }
 
-.headerText{
+h3{
+  text-align: center;
+  background-color: #FFFFFF;
+  max-width: 770px;
+
+}
+
+#imgSrc{
+  font-style: italic;
+  font-size: 13px;
+  text-align: center;
+}
+.headerText2{
   text-align: center;
 }
 
@@ -61,7 +73,11 @@ p{
 .yellowBox{
 
   background-color: #FFBC2B;
-
+  padding-bottom: 88px;
+}
+#yellowBoxText{
+  font-weight: bold;
+  line-height: 30px;
 }
 #supID{
   font-size: 20px;
@@ -81,6 +97,20 @@ p{
 font-weight: bold;
 font-size: 15px;
 color: #000000;
+}
+
+#footerStyling{
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+  background-color: #FFFFFF;
+  max-width: 770px;
+  margin: 0 auto;
+  width: 96%;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
