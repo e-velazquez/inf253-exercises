@@ -1,68 +1,100 @@
-body{
-  background-color: #EBEBEB; /*Changes website's background color*/
-  color: #302F2F; /*Changes website's text color*/
-  font-family: Arial, sans-serif; /*Changes website's font*/
+* {
+  box-sizing: border-box;
 }
 
-.wrapper{
-  background: #ffffff; /*Changes wrapper's background color*/
-  width: 92%; /*Makes the wrapper's width only take up 92% of the website*/
-  max-width: 880px; /*Sets width of website to 880px*/
-  margin: 0 auto; /*Changes top and right margin spacing*/
+body {
+  background-color: #EBEBEB;
+  font-family: arial, sans-serif;
+  color: #302F2F;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 98%;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 12px 20px;
 }
 
-a href{
-  color: #444444; /*Change link's color*/
+h1 {
+  margin-bottom: .5em;
 }
 
-h1, h2{
-  color: #84A98C; /*Changes h1 and h2 text color*/
+h1#page-title {
+  margin: 0;
 }
 
-h1{
-  margin-bottom: .5em; /*Creates a little space at the bottom of our heading 1*/
+h2 {
+  margin-bottom: .25em;
+  margin-top: 1em;
 }
 
-h2{
-  margin-bottom: .25em; /*Creates a little space at the bottom of our heading 2*/
+h1, h2 {
+  color: #99762A;
 }
 
-a{
-  color:#59C3C3; /*Changes website's link color*/
-}
-
-img{
-  max-width: 30%; /*Make the image widths smaller*/
-  height: auto; /*Fit the image height to the div's height*/
-}
-
-
-blockquote{
-  border-left: 4px solid #8b9aa5;
-  padding-left: 16px;
+blockquote {
+  border-left: 4px solid #8B9AA5;
+  padding: 12px;
   background-color: #f9f9f9;
   margin-left: 0;
 }
 
-.caption{
-  font-style: italic; /*Make the caption italic*/
+.image {
+  margin: 2em 0;
 }
 
-.image{
-  text-align: center; /*Center the text in the div*/
+.caption {
+  font-style: italic;
+  margin-top: .25em;
 }
 
-ul{
-  padding-left: 20px; /*Add padding to the unordered list on the left to indent it*/
-  margin-top: 8px; /*Create space to the top of the UL*/
+a {
+  color: #2C465B;
 }
 
-p{
-  line-height: 2em; /*Add spacing between each line in our paragraphs*/
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-/*Laptops*/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
 
+p {
+  line-height: 1.4em;
+}
+
+header {
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+}
+
+header.wrapper {
+  padding: 26px 20px;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 26px 20px;
+  border-top: 2px solid #d2d2d2;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+.centerimage{
+  margin-left: auto;
+  margin-right: auto;
+}
+@media all and (min-width: 920px) {
+  aside h2:first-child {
+    margin-top: 14px;
+  }
 }
