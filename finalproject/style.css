@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color: #EBEBEB;
+  background-image: url("codeBkg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #11150b;
   font-family: arial, sans-serif;
   color: #302F2F;
 }
@@ -30,7 +33,7 @@ h2 {
 }
 
 h1, h2 {
-  color: #99762A;
+  color: #6cb810;
 }
 
 blockquote {
@@ -59,8 +62,27 @@ img {
 }
 
 ul {
-  padding-left: 20px;
-  margin-top: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 p {
