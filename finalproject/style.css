@@ -30,6 +30,7 @@ h1#page-title {
 h2 {
   margin-bottom: .25em;
   margin-top: 1em;
+  font-style: italic;
 }
 
 h1, h2 {
@@ -66,7 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #11150b;
 }
 
 li {
@@ -82,13 +83,18 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #6cb810;
 }
 
 p {
   line-height: 1.4em;
+  text-indent: 2em;
 }
-
+h3{
+  color:#6cb810;
+  font-style: italic;
+  text-decoration: underline;
+}
 header {
   border-bottom: 2px solid #d2d2d2;
   text-align: center;
@@ -114,6 +120,14 @@ aside h2 {
 .centerimage{
   margin-left: auto;
   margin-right: auto;
+}
+#selfPortrait{
+  height: 300px;
+  width: 300px;
+  float: left;
+}
+#textWrap{
+
 }
 @media all and (min-width: 920px) {
   aside h2:first-child {
